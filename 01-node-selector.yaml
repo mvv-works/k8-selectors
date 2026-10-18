@@ -10,5 +10,5 @@ spec:
   containers:
   - name: nginx #container name
     image: nginx #by default if will get from docker hub
-  nodeSeclector:
+  nodeSelector:
     project: roboshop
