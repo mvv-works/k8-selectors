@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels: 
+    project: roboshop
+    environment: dev
+    purpose: poc
+spec: 
+  containers:
+  - name: nginx #container name
+    image: nginx #by default if will get from docker hub
+  nodeSeclector: roboshop
